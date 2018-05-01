@@ -1,0 +1,14 @@
+@Relation CRoyale
+
+@Attribute Card String
+@Attribute Type1 String
+@Attribute Cost NUMERIC
+@Attribute NumberOf NUMERIC
+@Attribute Health NUMERIC
+@Attribute Damage NUMERIC
+@Attribute Damage/Seconds NUMERIC
+@Attribute Air_Damage NUMERIC
+@Attribute Tower_Damage NUMERIC
+
+@Data
+Arqueras,Salpicadura,3,2,254,86,71,0,0

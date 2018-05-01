@@ -1,17 +1,17 @@
-@Relation CRoyale
+@relation 'CRoyale-weka.filters.unsupervised.attribute.StringToNominal-R1,2,10'
 
-@Attribute Card String
-@Attribute Type1 String
-@Attribute Cost NUMERIC
-@Attribute NumberOf NUMERIC
-@Attribute Health NUMERIC
-@Attribute Damage NUMERIC
-@Attribute Damage/Seconds NUMERIC
-@Attribute Air_Damage NUMERIC
-@Attribute Tower_Damage NUMERIC
-@Attribute Against String
+@attribute Card {Arqueras,Baby_Dragon,Barbaros,Bola_de_Fuego,Bombardero,Caballero,Canon,Choza_de_Barbaros,Cohete,Descarga,Duendes,Duendes_Lanza,Esbirrios,Espiritus_de_Fuego,Espiritus_de_Hielo,Esqueletos,Flechas,Gigante,Gigante_Noble,Globo_Bombastico,Golem_de_Hielo,Horda_de_Esbirrios,Horno,Mago,Mini_PEKKA,Montapuercos,Mortero,Mosquetera,Murcielagos,Recolector_de_Elixir,Torre_Bombardera,Torre_Infernal,Torre_Tesla,Valquiria}
+@attribute Type1 {Salpicadura,Hechizos_Fuertes,Cuerpo,Resistentes,EstructurasDirectAtack,NONE,TropasCantidadAire,TerrestresAtack,AtackEstructuras,Hechizos_Debiles,TropasCantidadTerrestres}
+@attribute Cost numeric
+@attribute NumberOf numeric
+@attribute Health numeric
+@attribute Damage numeric
+@attribute Damage/Seconds numeric
+@attribute Air_Damage numeric
+@attribute Tower_Damage numeric
+@attribute Against {Salpicadura,TropasCantidadAire,TropasCantidadTerrestres,TerrestresAtack,Hechizos_Fuertes,AtackEstructuras,Cuerpo,Resistentes,EstructurasDirectAtack,Hechizos_Debiles,Defensivo}
 
-@Data
+@data
 Arqueras,Salpicadura,3,2,254,86,71,0,0,Salpicadura
 Arqueras,Hechizos_Fuertes,3,2,254,86,71,0,0,Salpicadura
 Arqueras,Cuerpo,3,2,254,86,71,0,0,Salpicadura
