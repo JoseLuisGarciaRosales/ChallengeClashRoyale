@@ -1,7 +1,7 @@
 @relation 'CRoyale-weka.filters.unsupervised.attribute.StringToNominal-R1,2,10-weka.filters.unsupervised.attribute.Remove-R1,3-9'
 
-@attribute Type1 {Salpicadura,Hechizos_Fuertes,Cuerpo,Resistentes,EstructurasDirectAtack,NONE,TropasCantidadAire,TerrestresAtack,AtackEstructuras,Hechizos_Debiles,TropasCantidadTerrestres}
 @attribute Against {Salpicadura,TropasCantidadAire,TropasCantidadTerrestres,TerrestresAtack,Hechizos_Fuertes,AtackEstructuras,Cuerpo,Resistentes,EstructurasDirectAtack,Hechizos_Debiles,Defensivo}
+@attribute Type1 {Salpicadura,Hechizos_Fuertes,Cuerpo,Resistentes,EstructurasDirectAtack,NONE,TropasCantidadAire,TerrestresAtack,AtackEstructuras,Hechizos_Debiles,TropasCantidadTerrestres}
 
 @data
 Salpicadura,Salpicadura
