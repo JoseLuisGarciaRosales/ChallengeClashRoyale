@@ -1,14 +1,7 @@
-@Relation CRoyale
+@relation 'CRoyale-weka.filters.unsupervised.attribute.StringToNominal-R1,2,10-weka.filters.unsupervised.attribute.Remove-R1,3-9'
 
-@Attribute Card String
-@Attribute Type1 String
-@Attribute Cost NUMERIC
-@Attribute NumberOf NUMERIC
-@Attribute Health NUMERIC
-@Attribute Damage NUMERIC
-@Attribute Damage/Seconds NUMERIC
-@Attribute Air_Damage NUMERIC
-@Attribute Tower_Damage NUMERIC
+@attribute Against {Salpicadura,TropasCantidadAire,TropasCantidadTerrestres,TerrestresAtack,Hechizos_Fuertes,AtackEstructuras,Cuerpo,Resistentes,EstructurasDirectAtack,Hechizos_Debiles,Defensivo}
+@attribute Type1 {Salpicadura,Hechizos_Fuertes,Cuerpo,Resistentes,EstructurasDirectAtack,NONE,TropasCantidadAire,TerrestresAtack,AtackEstructuras,Hechizos_Debiles,TropasCantidadTerrestres}
 
 @Data
-Arqueras,Salpicadura,3,2,254,86,71,0,0
+AtackEstructuras
